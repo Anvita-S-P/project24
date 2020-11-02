@@ -26,7 +26,7 @@ function setup() {
    dustBin1=new dustBin(650,654,190,10);
    dustBin2=new dustBin(550,630,10,55);
    dustBin3=new dustBin(750,630,10,55);
-   paper=new Paper(200,100,20);
+   paper=new Paper(100,50,20);
 
 	Engine.run(engine);
   

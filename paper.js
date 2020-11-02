@@ -18,7 +18,7 @@ class Paper{
      var pos=this.body.position;
      push ();
      ellipseMode(RADIUS);
-     fill="pink";
+     fill("pink");
      ellipse(pos.x,pos.y,20);
  }
 
