@@ -9,7 +9,7 @@ class Paper{
         density:1.2
     }
 
-    this.body=Matter.Bodies.circle(x,y,20,options);
+    this.body=Matter.Bodies.circle(x,y,10,options);
     World.add(world,this.body);
 
 }
@@ -19,7 +19,7 @@ class Paper{
      push ();
      ellipseMode(RADIUS);
      fill("pink");
-     ellipse(pos.x,pos.y,20);
+     ellipse(pos.x,pos.y,10);
  }
 
 
